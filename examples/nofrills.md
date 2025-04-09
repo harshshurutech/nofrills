@@ -54,7 +54,7 @@ Use keyboard navigation:
 
 ```javascript
 function sayHello() {
-  console.log("Hello, world!");
+  console.log("Hello, universe!");
 }
 ```
 
