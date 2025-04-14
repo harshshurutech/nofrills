@@ -67,6 +67,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .collect::<Vec<String>>()
         .join("\n");
 
+    // Create the HTML template
     let template = SlideshowTemplate {
         slides_content: slides_html,
         total_slides: slides.len(),
