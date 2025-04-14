@@ -75,6 +75,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let html = template.render()?;
 
+    // Output the HTML to stdout or a file
     if args.stdout {
         println!("{}", html);
     } else if let Some(output_path) = args.output {
