@@ -30,7 +30,6 @@ struct SlideshowTemplate {
     total_slides: usize,
 }
 
-/// Convert markdown to HTML using pulldown-cmark
 fn markdown_to_html(markdown: &str) -> String {
     let mut options = Options::empty();
     options.insert(Options::ENABLE_STRIKETHROUGH);
