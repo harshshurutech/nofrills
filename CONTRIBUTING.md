@@ -1,3 +1,2 @@
 # CONTRIBUTING
 
-WIP
