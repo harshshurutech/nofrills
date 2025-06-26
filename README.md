@@ -1,5 +1,5 @@
 # nofrills
-A minimalist Markdown slideshow generator that works!
+A minimalist Markdown slideshow generator that really works!
 
 ## Usage
 
